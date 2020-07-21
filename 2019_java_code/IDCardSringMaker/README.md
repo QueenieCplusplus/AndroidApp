@@ -1,0 +1,2 @@
+# IDCardSringMaker
+Math.Random

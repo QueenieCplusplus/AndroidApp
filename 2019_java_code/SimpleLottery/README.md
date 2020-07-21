@@ -1,0 +1,2 @@
+# SimpleLottery
+Math.Random
