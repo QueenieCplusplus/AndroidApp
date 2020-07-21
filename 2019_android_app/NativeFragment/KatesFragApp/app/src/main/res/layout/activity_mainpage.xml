@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainPage">
+
+    <TableRow
+            android:id="@+id/tr">
+        <Button
+                android:id="@+id/tk"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="TokyosHoney"/>
+        <Button
+                android:id="@+id/sl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seoul"/>
+        <Button
+                android:id="@+id/tp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="TaipeisLove"/>
+        <Button
+                android:id="@+id/sn"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Singapore"/>
+    </TableRow>
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentLeft="true"
+            android:maxHeight="5dp"
+            android:maxWidth="5dp"
+            android:layout_below="@+id/tr"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/air"/>
+
+    <TableRow>
+        <Button
+                android:id="@+id/btn_na"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="North Asia"
+                android:layout_span="2"/>
+        <Button
+                android:id="@+id/btn_sa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="South Asia"
+                android:layout_span="2"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+                android:id="@+id/btn_chinaAir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="China Airline"
+                android:layout_span="5"/>
+    </TableRow>
+
+    <TextView
+            android:text="Tourist Partner"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+    <FrameLayout
+            android:id="@+id/frame"
+            android:layout_height="80dp"
+            android:layout_gravity="center"/>
+
+    <TextView
+            android:text="Kates Travel App"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+</TableLayout>

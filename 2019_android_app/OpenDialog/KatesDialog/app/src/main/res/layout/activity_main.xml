@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="630dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_horizontal_margin"
+            tools:context=".MainActivity"
+            tools:ignore="HardcodedText">
+
+    <!-- Basic -->
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="Basic"/>
+
+        <Button
+                android:id="@+id/basic"
+                android:text="Basic"
+                android:textSize="9dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:onClick="basic"/>
+
+        <Button
+                android:id="@+id/basic_content"
+                android:text="Content"
+                android:textSize="9dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:onClick="content"/>
+
+        <!-- Basic Lists -->
+
+        <TextView
+                android:text="Lists"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+        <Button
+                android:id="@+id/list"
+                android:text="List"
+                android:textSize="9dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+
+        <Button
+                android:id="@+id/checkbox"
+                android:text="Checkbox"
+                android:textSize="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+        <!-- Single Choice Lists -->
+
+        <TextView
+                android:text="Single Choice Lists"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+        <Button
+                android:id="@+id/single_choice_titled"
+                android:text="Choice"
+                android:textSize="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+
+        <Button
+                android:id="@+id/single_choice_disabled_items"
+                android:text="Disabled"
+                android:textSize="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+        <!-- Action Buttons -->
+
+        <TextView
+                android:text="Action Buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+        <Button
+                android:id="@+id/buttons_stacked"
+                android:text="Stack"
+                android:textSize="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+        <Button
+                android:id="@+id/buttons_callbacks"
+                android:text="Callback"
+                android:textSize="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+        <TextView
+                android:text="Dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+        <Button
+                android:id="@+id/misc_dialog_callbacks"
+                android:text="Dialog"
+                android:textSize="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+        <!-- Input -->
+
+        <TextView
+                android:text="Text Input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+        <Button
+                android:id="@+id/input"
+                android:text="Input"
+                android:textSize="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+        <Button
+                android:id="@+id/input_message"
+                android:text="Input + Message"
+                android:textSize="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+        <!-- File Choosers -->
+
+        <TextView
+                android:text="File Choosers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+        <Button
+                android:id="@+id/file_chooser_buttons"
+                android:text="File"
+                android:textSize="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+        <Button
+                android:id="@+id/file_chooser_filter"
+                android:text="FileFilter"
+                android:textSize="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+        <!-- Folder Choosers -->
+
+        <TextView
+                android:text="Folder Choosers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+        <Button
+                android:id="@+id/folder_chooser_buttons"
+                android:text="Folder"
+                android:textSize="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+        <Button
+                android:id="@+id/folder_chooser_filter"
+                android:text="Filter"
+                android:textSize="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+        <!-- DateTime Pickers -->
+
+        <TextView
+                android:text="DateTime Pickers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+        <Button
+                android:id="@+id/date_picker"
+                android:text="Date Picker"
+                android:textSize="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

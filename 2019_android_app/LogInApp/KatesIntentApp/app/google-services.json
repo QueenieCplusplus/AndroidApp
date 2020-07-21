@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "735199720699",
+    "firebase_url": "https://katesloginapp.firebaseio.com",
+    "project_id": "katesloginapp",
+    "storage_bucket": "katesloginapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735199720699:android:24780fd99a637070",
+        "android_client_info": {
+          "package_name": "com.katesapp2019.android.katesintentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735199720699-b0ll2brou0dmf5r1u5fg568oofiklnr3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.katesapp2019.android.katesintentapp",
+            "certificate_hash": "d67408cd9ab1f4b2a29677b5d6f1022121b2c3a0"
+          }
+        },
+        {
+          "client_id": "735199720699-gv6rupf4l9sm8ob0smqej3hr622pfkpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcHN3yuBJ5eRW9tjdkiSZpbomx2ce5vhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735199720699-gv6rupf4l9sm8ob0smqej3hr622pfkpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

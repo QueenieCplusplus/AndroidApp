@@ -1,0 +1,8 @@
+package com.app.travel.model
+
+import java.io.Serializable
+
+data class TravelAgentModel(
+    val AgentCode: String, 
+    val AgnetName: String, 
+    var AgnetIcon: Int) : Serializable

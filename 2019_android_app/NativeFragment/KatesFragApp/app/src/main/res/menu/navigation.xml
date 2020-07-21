@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/catPoupou"
+            android:icon="@drawable/cat"
+            android:title="cat" />
+
+    <item
+            android:id="@+id/linuxDuck"
+            android:icon="@drawable/duck"
+            android:title="duck" />
+
+    <item
+            android:id="@+id/goBear"
+            android:icon="@drawable/go"
+            android:title="bear" />
+
+    <item
+            android:id="@+id/android"
+            android:icon="@drawable/and"
+            android:title="robot" />
+
+</menu>

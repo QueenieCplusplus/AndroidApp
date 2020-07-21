@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+            android:layout_height="50dp"
+            android:layout_width="150dp"
+            android:onClick="goToFragC"
+            android:text="Join the C soon"
+            android:gravity="center_horizontal"/>
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fitsSystemWindows="true">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:paddingLeft="24dp"
+                      android:paddingRight="24dp"
+                      android:paddingTop="60dp">
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_horizontal"
+                      android:gravity="center_horizontal"
+                      android:text="Sign Up Form"
+                      android:textSize="30dp"
+                      android:textAllCaps="true"
+                      android:textStyle="bold"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_horizontal"
+                      android:text="User Name"
+                      android:textSize="10dp"
+                      android:textStyle="bold"/>
+
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp">
+
+                <EditText android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:inputType="textPersonName"
+                          android:id="@+id/input_username"
+                          android:autofillHints="username"
+                          android:labelFor="@+id/input_username"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_horizontal"
+                      android:text="Postal Addrsss"
+                      android:textSize="10dp"
+                      android:textStyle="bold"/>
+
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp">
+
+                <EditText android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:labelFor="@string/address"
+                          android:inputType="textPostalAddress"
+                          android:id="@+id/input_address"
+                          android:autofillHints="address"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_horizontal"
+                      android:text="Email Addrsss"
+                      android:textSize="10dp"
+                      android:textStyle="bold"/>
+
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp">
+
+                <EditText android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:labelFor="@string/email_address"
+                          android:inputType="textEmailAddress"
+                          android:id="@+id/input_email"
+                          android:autofillHints="email"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_horizontal"
+                      android:text="Mobile Number"
+                      android:textSize="10dp"
+                      android:textStyle="bold"/>
+
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp">
+
+                <EditText android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:labelFor="@string/mobile_number"
+                          android:inputType="number"
+                          android:id="@+id/input_mobile"
+                          android:autofillHints="number"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_horizontal"
+                      android:text="Password"
+                      android:textSize="10dp"
+                      android:textStyle="bold"/>
+
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp">
+
+                <EditText android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:labelFor="@string/password"
+                          android:inputType="numberPassword"
+                          android:id="@+id/input_password"
+                          android:autofillHints="password"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_horizontal"
+                      android:text="Re-Enter Password"
+                      android:textSize="10dp"
+                      android:textStyle="bold"/>
+
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp">
+
+                <EditText android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:labelFor="@string/re_enter_password"
+                          android:inputType="numberPassword"
+                          android:id="@+id/input_rePassword"
+                          android:autofillHints="rePassword"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="24dp"
+                    android:layout_marginTop="24dp"
+                    android:padding="12dp"
+                    android:id="@+id/btn_signup"
+                    android:text="Create An Account"/>
+            <!--btns alternative (按鈕的另一種寫法)-->
+            <!--android:onClick="btnGoBackLogIn"/>-->
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Already a member, plz login"
+                    android:id="@+id/link_login"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
